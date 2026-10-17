@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlavorCanvas | About & Contact</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">❧</span><span>FlavorCanvas</span></a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="about.html" class='active-nav'>About</a>
+  </nav>
+  <div class="header-tools">
+    <form class="site-search-form" role="search" action="recipes.html">
+      <label class="visually-hidden" for="site-search">Search recipes</label>
+      <input id="site-search" name="q" type="search" placeholder="Search recipes..." autocomplete="off">
+      <button class="search-button" type="submit" aria-label="Search">⌕</button>
+    </form>
+    <a class="favorites-link" href="recipes.html#favorites" aria-label="View favorite recipes">♥️ <span class="favorite-count">0</span></a>
+  </div>
+</header>
+
+<main>
+  <section class="about-banner">
+    <p class="eyebrow light">Our kitchen, our story</p>
+    <h1>About FlavorCanvas</h1>
+    <p>A collection of simple, delicious and creative recipes for everyday cooking.</p>
+  </section>
+
+  <section class="section-shell about-grid">
+    <article class="story-block">
+      <h2>Our Story</h2>
+      <p>FlavorCanvas started as a small idea: bring together simple, enjoyable recipes in one place. We wanted the site to feel useful first, with clear steps, familiar ingredients and a warm visual style.</p>
+      <p>The project is intentionally small so we can focus on clean HTML, strong CSS layouts, accessibility and responsive behavior.</p>
+    </article>
+    <img class="about-photo" src="images/about-food.jpg" alt="Fresh ingredients arranged on a table">
+  </section>
+
+  <section class="section-shell team-section">
+    <h2>Meet the Team</h2>
+    <div class="team-grid">
+      <article class="team-card">
+        <img src="images/team-1.jpg" alt="">
+        <div><h3>Thirunavukkarasu Palaniappa</h3><strong>Project Leader</strong><p>Layout, integration, repository coordination, responsive review and final testing.</p></div>
+      </article>
+      <article class="team-card">
+        <img src="images/team-2.jpg" alt="">
+        <div><h3>Monica Sai Chalasani</h3><strong>UI / Content & Interaction</strong><p>Recipe layouts, content, styling, motion, accessibility and responsive testing.</p></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section-shell contact-layout">
+    <article class="contact-info">
+      <h2>Contact Us</h2>
+      <p>✉ tpalaniappa1@student.gsu.edu</p>
+      <p>✉ mchalasani1@student.gsu.edu</p>
+      <p>⌖ Georgia State University<br>Atlanta, GA</p>
+    </article>
+
+    <article class="tips-card">
+      <h2>Cooking Tips</h2>
+      <ul>
+        <li>Use fresh ingredients for better flavor.</li>
+        <li>Keep your kitchen organized.</li>
+        <li>Try new cuisines and experiment.</li>
+        <li>Adjust recipes to match your taste.</li>
+        <li>Cooking is more fun when shared.</li>
+      </ul>
+    </article>
+
+    <section class="contact-form-card" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Get in Touch</h2>
+      <p class="form-note">Static form layout for this HTML/CSS-only project.</p>
+      <form action="mailto:mchalasani1@student.gsu.edu" method="post" enctype="text/plain">
+        <div class="form-row">
+          <label>Name<input type="text" name="name" autocomplete="name"></label>
+          <label>Email<input type="email" name="email" autocomplete="email"></label>
+        </div>
+        <label>Message<textarea name="message" rows="5"></textarea></label>
+        <button type="submit" class="button button-primary">Send Message →</button>
+      </form>
+    </section>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>
+    <strong>FlavorCanvas</strong>
+    <p>Simple recipes for everyday cooking.</p>
+  </div>
+  <nav aria-label="Footer navigation">
+    <a href="index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="about.html">About</a>
+    <a href="team.html">Team</a>
+  </nav>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html>
