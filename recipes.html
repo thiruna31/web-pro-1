@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlavorCanvas | Recipe Collection</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">❧</span><span>FlavorCanvas</span></a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="recipes.html" class='active-nav'>Recipes</a>
+    <a href="about.html">About</a>
+  </nav>
+  <div class="header-tools">
+    <form class="site-search-form" role="search" action="recipes.html">
+      <label class="visually-hidden" for="site-search">Search recipes</label>
+      <input id="site-search" name="q" type="search" placeholder="Search recipes..." autocomplete="off">
+      <button class="search-button" type="submit" aria-label="Search">⌕</button>
+    </form>
+    <a class="favorites-link" href="recipes.html#favorites" aria-label="View favorite recipes">♥ <span class="favorite-count">0</span></a>
+  </div>
+</header>
+<main>
+<section class="collection-banner"><p class="eyebrow light">Browse & discover</p><h1>Recipe Collection</h1><p>Easy, tasty, wholesome recipes for every occasion.</p>
+<div class="filter-row" aria-label="Recipe categories">
+<button class="chip active-chip recipe-filter" data-filter="all">All</button>
+<button class="chip recipe-filter" data-filter="easy">Easy</button>
+<button class="chip recipe-filter" data-filter="medium">Medium</button>
+</div></section>
+
+<section class="section-shell search-status-wrap">
+  <div id="search-status" class="search-status" aria-live="polite"></div>
+  <div class="recipe-grid" id="recipe-grid">
+<article class="recipe-card" data-title="avocado toast" data-tags="easy avocado toast">
+  <a href="avocado-toast.html" class="recipe-photo-link"><img src="images/avocado-toast.jpg" alt="Avocado Toast"></a>
+  <button class="save-button favorite-toggle" type="button" data-recipe="avocado-toast" aria-label="Save Avocado Toast" aria-pressed="false">♡</button>
+  <div class="recipe-card-body">
+    <h3><a href="avocado-toast.html">Avocado Toast</a></h3>
+    <p>Creamy avocado on crisp toast with lemon, herbs, and a simple seasoning mix.</p>
+    <div class="meta"><span>◷ 30 mins</span><span>♜ Easy</span></div>
+  </div>
+</article>
+
+<article class="recipe-card" data-title="margherita pizza" data-tags="medium margherita pizza">
+  <a href="margherita-pizza.html" class="recipe-photo-link"><img src="images/margherita-pizza.jpg" alt="Margherita Pizza"></a>
+  <button class="save-button favorite-toggle" type="button" data-recipe="margherita-pizza" aria-label="Save Margherita Pizza" aria-pressed="false">♡</button>
+  <div class="recipe-card-body">
+    <h3><a href="margherita-pizza.html">Margherita Pizza</a></h3>
+    <p>A classic pizza with tomato, mozzarella, basil, and a crisp homemade-style crust.</p>
+    <div class="meta"><span>◷ 25 mins</span><span>♜ Medium</span></div>
+  </div>
+</article>
+
+<article class="recipe-card" data-title="chicken stir fry" data-tags="easy chicken stir fry">
+  <a href="chicken-stir-fry.html" class="recipe-photo-link"><img src="images/chicken-stir-fry.jpg" alt="Chicken Stir Fry"></a>
+  <button class="save-button favorite-toggle" type="button" data-recipe="chicken-stir-fry" aria-label="Save Chicken Stir Fry" aria-pressed="false">♡</button>
+  <div class="recipe-card-body">
+    <h3><a href="chicken-stir-fry.html">Chicken Stir Fry</a></h3>
+    <p>Quick chicken and colorful vegetables tossed in a savory stir-fry sauce.</p>
+    <div class="meta"><span>◷ 20 mins</span><span>♜ Easy</span></div>
+  </div>
+</article>
+
+<article class="recipe-card" data-title="chocolate pancakes" data-tags="medium chocolate pancakes">
+  <a href="chocolate-pancakes.html" class="recipe-photo-link"><img src="images/chocolate-pancakes.jpg" alt="Chocolate Pancakes"></a>
+  <button class="save-button favorite-toggle" type="button" data-recipe="chocolate-pancakes" aria-label="Save Chocolate Pancakes" aria-pressed="false">♡</button>
+  <div class="recipe-card-body">
+    <h3><a href="chocolate-pancakes.html">Chocolate Pancakes</a></h3>
+    <p>Soft chocolate pancakes with a rich cocoa flavor and an easy breakfast batter.</p>
+    <div class="meta"><span>◷ 30 mins</span><span>♜ Medium</span></div>
+  </div>
+</article>
+
+<article class="recipe-card" data-title="veggie wrap" data-tags="easy veggie wrap">
+  <a href="veggie-wrap.html" class="recipe-photo-link"><img src="images/veggie-wrap.jpg" alt="Veggie Wrap"></a>
+  <button class="save-button favorite-toggle" type="button" data-recipe="veggie-wrap" aria-label="Save Veggie Wrap" aria-pressed="false">♡</button>
+  <div class="recipe-card-body">
+    <h3><a href="veggie-wrap.html">Veggie Wrap</a></h3>
+    <p>A light wrap filled with crunchy vegetables, greens, and a simple creamy spread.</p>
+    <div class="meta"><span>◷ 15 mins</span><span>♜ Easy</span></div>
+  </div>
+</article>
+
+<article class="recipe-card" data-title="tomato soup" data-tags="easy tomato soup">
+  <a href="tomato-soup.html" class="recipe-photo-link"><img src="images/tomato-soup.jpg" alt="Tomato Soup"></a>
+  <button class="save-button favorite-toggle" type="button" data-recipe="tomato-soup" aria-label="Save Tomato Soup" aria-pressed="false">♡</button>
+  <div class="recipe-card-body">
+    <h3><a href="tomato-soup.html">Tomato Soup</a></h3>
+    <p>A smooth, comforting tomato soup with garlic, herbs, and a simple creamy finish.</p>
+    <div class="meta"><span>◷ 25 mins</span><span>♜ Easy</span></div>
+  </div>
+</article>
+
+<article class="recipe-card" data-title="grilled salmon" data-tags="medium grilled salmon">
+  <a href="grilled-salmon.html" class="recipe-photo-link"><img src="images/grilled-salmon.jpg" alt="Grilled Salmon"></a>
+  <button class="save-button favorite-toggle" type="button" data-recipe="grilled-salmon" aria-label="Save Grilled Salmon" aria-pressed="false">♡</button>
+  <div class="recipe-card-body">
+    <h3><a href="grilled-salmon.html">Grilled Salmon</a></h3>
+    <p>Tender salmon with lemon, herbs, and a lightly charred grilled finish.</p>
+    <div class="meta"><span>◷ 30 mins</span><span>♜ Medium</span></div>
+  </div>
+</article>
+
+<article class="recipe-card" data-title="fruit parfait" data-tags="easy fruit parfait">
+  <a href="fruit-parfait.html" class="recipe-photo-link"><img src="images/fruit-parfait.jpg" alt="Fruit Parfait"></a>
+  <button class="save-button favorite-toggle" type="button" data-recipe="fruit-parfait" aria-label="Save Fruit Parfait" aria-pressed="false">♡</button>
+  <div class="recipe-card-body">
+    <h3><a href="fruit-parfait.html">Fruit Parfait</a></h3>
+    <p>Layers of yogurt, fresh fruit, and crunchy granola for a light dessert or breakfast.</p>
+    <div class="meta"><span>◷ 15 mins</span><span>♜ Easy</span></div>
+  </div>
+</article></div>
+  <p id="no-results" class="no-results" hidden>No recipes matched your search. Try another recipe name.</p>
+</section>
+
+<section class="suggested-section" id="favorites">
+<div class="section-title-row"><div><p class="eyebrow">Saved by you</p><h2>Your Favorites</h2></div></div>
+<div class="suggested-grid" id="favorites-grid"></div>
+<p id="favorites-empty" class="simulation-note">Tap the heart on any recipe to save it here.</p>
+</section>
+
+<section class="suggested-section">
+<div class="section-title-row"><div><p class="eyebrow">Graduate UI Simulation</p><h2>Suggested for You</h2></div></div>
+<div class="suggested-grid">
+<article class="suggestion-card"><img src="images/grilled-salmon.jpg" alt=""><div><h3>Grilled Salmon</h3><p>Fresh and flavorful.</p><a href="grilled-salmon.html">Open recipe →</a></div></article>
+<article class="suggestion-card"><img src="images/fruit-parfait.jpg" alt=""><div><h3>Fruit Parfait</h3><p>Healthy and refreshing.</p><a href="fruit-parfait.html">Open recipe →</a></div></article>
+<article class="suggestion-card"><img src="images/chicken-stir-fry.jpg" alt=""><div><h3>Chicken Stir Fry</h3><p>Fast weeknight option.</p><a href="chicken-stir-fry.html">Open recipe →</a></div></article>
+<article class="suggestion-card"><img src="images/margherita-pizza.jpg" alt=""><div><h3>Margherita Pizza</h3><p>Classic comfort pick.</p><a href="margherita-pizza.html">Open recipe →</a></div></article>
+</div>
+<p class="simulation-note">Suggestions are a static UI concept. Search and favorites are local browser interactions.</p>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div><strong>FlavorCanvas</strong><p>Simple recipes for everyday cooking.</p></div>
+  <nav aria-label="Footer navigation">
+    <a href="index.html">Home</a><a href="recipes.html">Recipes</a><a href="about.html">About</a><a href="team.html">Team</a>
+  </nav>
+</footer>
+<script src="js/site.js"></script>
+
+</body></html>
