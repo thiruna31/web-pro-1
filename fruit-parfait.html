@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlavorCanvas | Fruit Parfait</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">❧</span><span>FlavorCanvas</span></a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="recipes.html" class='active-nav'>Recipes</a>
+    <a href="about.html">About</a>
+  </nav>
+  <div class="header-tools">
+    <form class="site-search-form" role="search" action="recipes.html">
+      <label class="visually-hidden" for="site-search">Search recipes</label>
+      <input id="site-search" name="q" type="search" placeholder="Search recipes..." autocomplete="off">
+      <button class="search-button" type="submit" aria-label="Search">⌕</button>
+    </form>
+    <a class="favorites-link" href="recipes.html#favorites" aria-label="View favorite recipes">♥ <span class="favorite-count">0</span></a>
+  </div>
+</header>
+<main class="section-shell detail-page">
+  <a class="back-link" href="recipes.html">← Back to Recipes</a>
+
+  <section class="recipe-intro">
+    <div class="detail-photo"><img src="images/fruit-parfait.jpg" alt="Fruit Parfait"><span class="zoom-mark" aria-hidden="true">⌕</span></div>
+    <div class="detail-summary">
+      <span class="tag">Featured</span>
+      <h1>Fruit Parfait</h1>
+      <p>Layers of yogurt, fresh fruit, and crunchy granola for a light dessert or breakfast.</p>
+      <div class="detail-meta"><span>◷ 15 mins</span><span>♜ Easy</span><span>♙ 2 servings</span></div>
+      <button class="detail-favorite favorite-toggle" type="button" data-recipe="fruit-parfait" aria-pressed="false">♡ Add to Favorites</button>
+    </div>
+    <aside class="tips-box"><h2>Cooking Tips</h2><ul><li>Read the whole recipe before starting.</li><li>Prepare ingredients before cooking.</li><li>Taste and adjust seasoning near the end.</li></ul></aside>
+  </section>
+
+  <section class="detail-columns">
+    <article class="ingredients-card"><h2>Ingredients</h2><ul class="check-list"><li>1 cup Greek yogurt</li><li>1/2 cup strawberries</li><li>1/2 cup blueberries</li><li>1/2 cup granola</li><li>1 tbsp honey</li><li>Mint leaves (optional)</li></ul></article>
+    <article class="steps-card"><h2>Preparation Steps</h2><ol class="number-list"><li>Spoon a layer of yogurt into each glass.</li><li>Add a layer of fruit and granola.</li><li>Repeat the layers until the glass is filled.</li><li>Drizzle a little honey over the top.</li><li>Finish with mint and serve right away.</li></ol></article>
+    <article class="story-card"><p class="eyebrow">Story Pack</p><h2>Recipe Story</h2><p>A colorful no-cook option that works as breakfast, a snack, or an easy dessert.</p></article>
+  </section>
+
+  <section class="assistant-panel">
+    <div><p class="eyebrow">Graduate UI Simulation</p><h2>Cooking Assistant</h2><p>This panel is a planned visual assistant concept for the course project.</p></div>
+    <div class="assistant-cards">
+      <article><strong>Can I prepare ingredients early?</strong><p>Yes. Chop and measure ingredients before you begin cooking.</p></article>
+      <article><strong>How should I store leftovers?</strong><p>Cool them first, then refrigerate in a covered container.</p></article>
+      <article><strong>Can I change the seasoning?</strong><p>Yes. Adjust salt, pepper, herbs, and spice to your taste.</p></article>
+    </div>
+  </section>
+
+  <section class="related-section">
+    <div class="section-title-row"><h2>You Might Also Like</h2></div>
+    <div class="related-grid"><a class="mini-recipe" href="avocado-toast.html"><img src="images/avocado-toast.jpg" alt="Avocado Toast"><span>Avocado Toast</span><small>30 mins</small></a><a class="mini-recipe" href="margherita-pizza.html"><img src="images/margherita-pizza.jpg" alt="Margherita Pizza"><span>Margherita Pizza</span><small>25 mins</small></a><a class="mini-recipe" href="chicken-stir-fry.html"><img src="images/chicken-stir-fry.jpg" alt="Chicken Stir Fry"><span>Chicken Stir Fry</span><small>20 mins</small></a></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div><strong>FlavorCanvas</strong><p>Simple recipes for everyday cooking.</p></div>
+  <nav aria-label="Footer navigation">
+    <a href="index.html">Home</a><a href="recipes.html">Recipes</a><a href="about.html">About</a><a href="team.html">Team</a>
+  </nav>
+</footer>
+<script src="js/site.js"></script>
+
+</body>
+</html>

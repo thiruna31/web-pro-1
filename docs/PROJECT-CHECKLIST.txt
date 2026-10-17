@@ -1,0 +1,37 @@
+FLAVORCANVAS PROJECT CHECKLIST
+
+CORE
+[ ] Home page
+[ ] Recipe Collection page
+[ ] Recipe Details page
+[ ] About & Contact page
+[ ] Team introduction page
+[ ] Semantic HTML
+[ ] External CSS
+[ ] CSS Grid
+[ ] Flexbox
+[ ] Responsive desktop/tablet/mobile
+[ ] Visible keyboard focus
+[ ] Useful alt text
+[ ] Good contrast
+[ ] prefers-reduced-motion
+[ ] Transitions
+[ ] Transforms
+[ ] 3 meaningful keyframe animation ideas
+
+TRACK / EXTENSIONS
+[ ] Recipe Studio
+[ ] Story Pack
+[ ] Recommendation Engine UI simulation
+[ ] Cooking Assistant UI simulation
+
+FINAL EVIDENCE
+[ ] Approved proposal + wireframes
+[ ] Kanban evidence
+[ ] Time tracking / development journal
+[ ] Responsive QA notes
+[ ] README
+[ ] GitHub history
+[ ] CODD live site
+[ ] YouTube presentation
+[ ] submission-links.txt completed
