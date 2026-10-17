@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FlavorCanvas | Veggie Wrap</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">❧</span><span>FlavorCanvas</span></a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="recipes.html" class='active-nav'>Recipes</a>
+    <a href="about.html">About</a>
+  </nav>
+  <div class="header-tools">
+    <form class="site-search-form" role="search" action="recipes.html">
+      <label class="visually-hidden" for="site-search">Search recipes</label>
+      <input id="site-search" name="q" type="search" placeholder="Search recipes..." autocomplete="off">
+      <button class="search-button" type="submit" aria-label="Search">⌕</button>
+    </form>
+    <a class="favorites-link" href="recipes.html#favorites" aria-label="View favorite recipes">♥️ <span class="favorite-count">0</span></a>
+  </div>
+</header>
+<main class="section-shell detail-page">
+  <a class="back-link" href="recipes.html">← Back to Recipes</a>
+
+  <section class="recipe-intro">
+    <div class="detail-photo"><img src="images/veggie-wrap.jpg" alt="Veggie Wrap"><span class="zoom-mark" aria-hidden="true">⌕</span></div>
+    <div class="detail-summary">
+      <span class="tag">Featured</span>
+      <h1>Veggie Wrap</h1>
+      <p>A light wrap filled with crunchy vegetables, greens, and a simple creamy spread.</p>
+      <div class="detail-meta"><span>◷ 15 mins</span><span>♜ Easy</span><span>♙ 2 servings</span></div>
+      <button class="detail-favorite favorite-toggle" type="button" data-recipe="veggie-wrap" aria-pressed="false">♡ Add to Favorites</button>
+    </div>
+    <aside class="tips-box"><h2>Cooking Tips</h2><ul><li>Read the whole recipe before starting.</li><li>Prepare ingredients before cooking.</li><li>Taste and adjust seasoning near the end.</li></ul></aside>
+  </section>
+
+  <section class="detail-columns">
+    <article class="ingredients-card"><h2>Ingredients</h2><ul class="check-list"><li>2 large tortillas</li><li>1/2 cup lettuce</li><li>1/2 cucumber, sliced</li><li>1 small carrot, shredded</li><li>1/2 bell pepper</li><li>3 tbsp hummus</li><li>Salt and pepper</li></ul></article>
+    <article class="steps-card"><h2>Preparation Steps</h2><ol class="number-list"><li>Lay the tortillas flat on a clean surface.</li><li>Spread hummus over the center of each tortilla.</li><li>Add lettuce, cucumber, carrot, and bell pepper.</li><li>Season lightly with salt and pepper.</li><li>Fold the sides in and roll tightly before serving.</li></ol></article>
+    <article class="story-card"><p class="eyebrow">Story Pack</p><h2>Recipe Story</h2><p>This is a quick lunch idea for days when you want something fresh without turning on the stove.</p></article>
+  </section>
+
+  <section class="assistant-panel">
+    <div><p class="eyebrow">Graduate UI Simulation</p><h2>Cooking Assistant</h2><p>This panel is a planned visual assistant concept for the course project.</p></div>
+    <div class="assistant-cards">
+      <article><strong>Can I prepare ingredients early?</strong><p>Yes. Chop and measure ingredients before you begin cooking.</p></article>
+      <article><strong>How should I store leftovers?</strong><p>Cool them first, then refrigerate in a covered container.</p></article>
+      <article><strong>Can I change the seasoning?</strong><p>Yes. Adjust salt, pepper, herbs, and spice to your taste.</p></article>
+    </div>
+  </section>
+
+  <section class="related-section">
+    <div class="section-title-row"><h2>You Might Also Like</h2></div>
+    <div class="related-grid"><a class="mini-recipe" href="tomato-soup.html"><img src="images/tomato-soup.jpg" alt="Tomato Soup"><span>Tomato Soup</span><small>25 mins</small></a><a class="mini-recipe" href="grilled-salmon.html"><img src="images/grilled-salmon.jpg" alt="Grilled Salmon"><span>Grilled Salmon</span><small>30 mins</small></a><a class="mini-recipe" href="fruit-parfait.html"><img src="images/fruit-parfait.jpg" alt="Fruit Parfait"><span>Fruit Parfait</span><small>15 mins</small></a></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div><strong>FlavorCanvas</strong><p>Simple recipes for everyday cooking.</p></div>
+  <nav aria-label="Footer navigation">
+    <a href="index.html">Home</a><a href="recipes.html">Recipes</a><a href="about.html">About</a><a href="team.html">Team</a>
+  </nav>
+</footer>
+<script src="js/site.js"></script>
+
+</body>
+</html>
