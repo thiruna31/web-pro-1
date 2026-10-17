@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlavorCanvas | Home</title>
+  <meta name="description" content="FlavorCanvas - a responsive recipe studio built with HTML and CSS.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="home-page">
+
+
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-mark">❧</span><span>FlavorCanvas</span></a>
+  <nav class="main-nav" aria-label="Main navigation">
+    <a href="index.html" class='active-nav'>Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="about.html">About</a>
+  </nav>
+  <div class="header-tools">
+    <form class="site-search-form" role="search" action="recipes.html">
+      <label class="visually-hidden" for="site-search">Search recipes</label>
+      <input id="site-search" name="q" type="search" placeholder="Search recipes..." autocomplete="off">
+      <button class="search-button" type="submit" aria-label="Search">⌕</button>
+    </form>
+    <a class="favorites-link" href="recipes.html#favorites" aria-label="View favorite recipes">♥ <span class="favorite-count">0</span></a>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Simple recipes. Brighter days.</p>
+      <h1>Good Food<br>Brings People<br>Together</h1>
+      <p class="hero-text">Discover easy and delicious recipes for every occasion. From quick meals to special dishes, find inspiration for your next meal.</p>
+      <a class="button button-primary" href="recipes.html">View Recipes <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="hero-photo-wrap">
+      <img class="hero-photo" src="images/hero-pasta.jpg" alt="Creamy pasta with tomatoes and basil">
+      <div class="paper-note" aria-hidden="true">Cook<br>Explore<br>Share</div>
+    </div>
+  </section>
+
+  <section class="benefits" aria-label="FlavorCanvas benefits">
+    <article><span class="mini-icon">♨</span><div><h2>Easy to Follow</h2><p>Step-by-step recipes</p></div></article>
+    <article><span class="mini-icon">▣</span><div><h2>For Every Occasion</h2><p>Breakfast to desserts</p></div></article>
+    <article><span class="mini-icon">❧</span><div><h2>Fresh Ideas</h2><p>New recipes regularly</p></div></article>
+    <article><span class="mini-icon">♡</span><div><h2>Made with Love</h2><p>By food enthusiasts</p></div></article>
+  </section>
+
+  <section class="section-shell occasion-section">
+    <div class="section-title-row">
+      <div>
+        <p class="eyebrow">Story Pack</p>
+        <h2>Explore by Occasion</h2>
+      </div>
+      <p class="section-kicker">Pick the kind of meal that fits your day.</p>
+    </div>
+
+    <div class="occasion-grid">
+      <article class="occasion-card">
+        <img src="images/breakfast.jpg" alt="Breakfast pancakes">
+        <div class="card-copy"><h3>Breakfast</h3><p>Start your day right</p><a href="recipes.html">→</a></div>
+      </article>
+      <article class="occasion-card">
+        <img src="images/quick-meal.jpg" alt="Fresh quick meal salad">
+        <div class="card-copy"><h3>Quick Meal</h3><p>Ready in 30 minutes</p><a href="recipes.html">→</a></div>
+      </article>
+      <article class="occasion-card">
+        <img src="images/dinner.jpg" alt="Pasta dinner">
+        <div class="card-copy"><h3>Dinner</h3><p>Hearty and delicious</p><a href="recipes.html">→</a></div>
+      </article>
+      <article class="occasion-card">
+        <img src="images/special-occasion.jpg" alt="Berry topped celebration dessert">
+        <div class="card-copy"><h3>Special Occasion</h3><p>For memorable moments</p><a href="recipes.html">→</a></div>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div>
+    <strong>FlavorCanvas</strong>
+    <p>Simple recipes for everyday cooking.</p>
+  </div>
+  <nav aria-label="Footer navigation">
+    <a href="index.html">Home</a>
+    <a href="recipes.html">Recipes</a>
+    <a href="about.html">About</a>
+    <a href="team.html">Team</a>
+  </nav>
+</footer>
+
+<script src="js/site.js"></script>
+</body>
+</html>
